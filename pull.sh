@@ -5,3 +5,5 @@ ssh -T git@github.com
 echo
 echo "Git status:"
 git status
+git pull origin master
+exit
