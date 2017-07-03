@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+################################################################################
+# Colors and shell prompt
+
+export PS1="\w "
+
+# End colors
+################################################################################
+=======
+>>>>>>> 44f656c6d2e38c5ac3edd957f138748645ac90c4
 
 ################################################################################
 # Preserve bash history in multiple terminal windows
@@ -21,7 +31,10 @@ HISTTIMEFORMAT='%F %T '
 alias cp='cp -iv'                           # Preferred 'cp' implementation
 alias mv='mv -iv'                           # Preferred 'mv' implementation
 alias mkdir='mkdir -pv'                     # Preferred 'mkdir' implementation
+<<<<<<< HEAD
+=======
 cd() { builtin cd "$@"; ll; }               # Always list directory contents upon 'cd'
+>>>>>>> 44f656c6d2e38c5ac3edd957f138748645ac90c4
 alias which='type -all'                     # which:        Find executables
 alias show_options='shopt'                  # Show_options: display bash options settings
 alias memHogsTop='top -l 1 -o rsize | head -20'
@@ -38,6 +51,17 @@ alias killchrome='killall -9 "Google Chrome"'
 
 # End Aliases
 ################################################################################
+<<<<<<< HEAD
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/afeddersen/google-cloud-sdk/path.bash.inc' ]; then source '/Users/afeddersen/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/afeddersen/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/afeddersen/google-cloud-sdk/completion.bash.inc'; fi
+
+# SSH passphrase setup -- custom setup for Mac OSX Sierra
+ssh-add -A 2>/dev/null;
+=======
 ################################################################################
 # Colors
 
@@ -72,3 +96,4 @@ export PS1="${YELLOW}\W:${PURPLE}${BLACK} ${NAME}\$ "
 
 # End colors
 ################################################################################
+>>>>>>> 44f656c6d2e38c5ac3edd957f138748645ac90c4
